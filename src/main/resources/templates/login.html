@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Spring Boot Thymeleaf Hello World Example</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <link rel="stylesheet" type="text/css"
+              href="../webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css"
+              href="static/style.css" />
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/async/2.6.0/async.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="../webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <form class="form-horizontal" action='' method="POST">
+                        <fieldset>
+                            <div id="legend">
+                                <legend class="">Login</legend>
+                            </div>
+                            <div class="control-group">
+                                <div class="controls">
+                                    <button id="metamask-sign-in" type="button" class="btn btn-metamask" disabled>Sign in with MetaMask</button>
+                                </div>
+                                <div>
+                                    <p id="metamask-warning"></p>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="static/login.js"></script>
+    </body>
+</html>
